@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</Copia de Youtube></title>
   <link rel="stylesheet" href="./../CSS/proyectoyt.css">
-
+  </head>
+  <body>
   <!--Start Header-->
   <header>
     <div class="ham-menu">
@@ -30,20 +31,25 @@
     <!--Start Main Side Bar-->
     <aside class="sidebar">
       <nav>
-        <div class="sidebar-icons">
+        <div class="principal-sidebar-icons">
           <img src="./../Imagenes/home.svg" alt="Home">
           <span class="sidebar-items">Inicio</span>
         </div>
-        <div class="sidebar-icons">
+        <div class="principal-sidebar-icons">
           <img src="./../Imagenes/shorts.svg" alt="Shorts">
           <span class="sidebar-items">Shorts</span>
         </div>
-        <div class="sidebar-icons">
+        <div class="principal-sidebar-icons">
           <img src="./../Imagenes/Sus.svg" alt="Subscriptions">
           <span class="sidebar-items">Suscripciones</span>
+        </div>
       <hr>
+        <div class="responsive-only">
+          <img src="./../Imagenes/Tu icono.svg" alt="Logo">
+          <p>Tu</p>
+        </div>
         <div class="sidebar-icons">
-          <h4>Tu</h4>  
+          <h4>Tu</h4>
           <img src="./../Imagenes/historial.svg" alt="Home">
           <span class="sidebar-items">Historial</span>
         </div>
@@ -66,37 +72,58 @@
       <hr>
         <div class="sidebar-icons">
           <h4>Explorar</h4>
-          <img src="./../Imagenes/Explorar.svg" alt="Home"><span>Tendencias</span>
-        </div>
-        <div class="sidebar-icons">
-          <img src="./../Imagenes/Deportes.svg" alt="Home">
-          <span>Musica</span>
-        </div>
-        <div class="sidebar-icons">
-          <img src="./../Imagenes/Juegos.svg" alt="Home">
-          <span>Videojuegos</span>
+          <img src="./../Imagenes/tendencias.svg" alt="Home"><span>Tendencias</span>
         </div>
         <div class="sidebar-icons">
           <img src="./../Imagenes/Musica.svg" alt="Home">
+          <span>Musica</span>
+        </div>
+        <div class="sidebar-icons">
+          <img src="./../Imagenes/Videoj.svg" alt="Home">
+          <span>Videojuegos</span>
+        </div>
+        <div class="sidebar-icons">
+          <img src="./../Imagenes/deport.svg" alt="Home">
           <span>Deporte</span>
         </div>
-          <img src="./../Imagenes/Noticias.svg" alt="Home">
+        <div class="sidebar-icons">
+          <img src="./../Imagenes/aprendizaje.svg" alt="Home">
           <span>Aprendizaje</span>
         </div>
       <hr>
         <div class="sidebar-icons">
           <h4>Mas de Youtube</h4>
-          <img src="./../Imagenes/Descargas.svg" alt="Home"><span>Youtube Premium</span>
-          <img src="./../Imagenes/Compras.svg" alt="Home"><span>Youtube Studio</span>
-          <img src="./../Imagenes/Anuncios.svg" alt="Home"><span>Youtube Music</span>
-          <img src="./../Imagenes/YouTube Premium.svg" alt="Home"><span>YouTube Kids</span>
+          <img src="./../Imagenes/yt pre.svg" alt="Home">
+          <span>Youtube Premium</span>
+        </div>
+        <div class="sidebar-icons">
+          <img src="./../Imagenes/yt stud.svg" alt="Home">
+          <span>Youtube Studio</span>
+        </div>
+        <div class="sidebar-icons">
+          <img src="./../Imagenes/yt music.svg" alt="Home">
+          <span>Youtube Music</span>
+        </div>
+        <div class="sidebar-icons">
+          <img src="./../Imagenes/yt kids.svg" alt="Home">
+          <span>YouTube Kids</span>
         </div>
       <hr>
         <div class="sidebar-icons">
-          <img src="./../Imagenes/Canal 1.svg" alt="Home"><span>Configuracion</span>
-          <img src="./../Imagenes/Canal 2.svg" alt="Home"><span>Historial de denunc...</span>
-          <img src="./../Imagenes/Canal 3.svg" alt="Home"><span>Ayuda</span>
-          <img src="./../Imagenes/Canal 4.svg" alt="Home"><span>Enviar sugerencias</span>
+          <img src="./../Imagenes/config.svg" alt="Home">
+          <span>Configuracion</span>
+        </div>
+        <div class="sidebar-icons">
+          <img src="./../Imagenes/Historial den.svg" alt="Home">
+          <span>Historial de denunc...</span>
+        </div>
+        <div class="sidebar-icons">
+          <img src="./../Imagenes/ayuda.svg" alt="Home">
+          <span>Ayuda</span>
+        </div>
+        <div class="sidebar-icons">
+          <img src="./../Imagenes/enviar sug.svg" alt="Home">
+          <span>Enviar sugerencias</span>
         </div>
       </nav>
     </aside>
@@ -129,30 +156,97 @@
       </div>
   <!--End Content tags-->
   <!--Content Vid Grid-->
-    <div class="grid-video">
-  <!--Video blocks-->
-      <div class="card-video">  
-        <img class="thumbnail"src="./../Imagenes/Vid 1.avif" alt="Video Thumbnail">
-        <div class="video-info">
-          <img class="channel-logo" src="./../Imagenes/avatar 1.jpg" alt="Channel Logo" class="channel-logo">
-          <div class="video-title">
-            <h3>Residente - This is Not America (Official Video) ft. Ibeyi</h3>
-            <p class="channel">Residente</p>
-            <p class="vid-meta">35 M de visualizaciones • hace 3 años</p>
+      <div class="grid-video">
+    <!--Video blocks-->
+        <div class="card-video">  
+          <img class="thumbnail"src="./../Imagenes/Vid 1.avif" alt="Video Thumbnail">
+          <div class="video-info">
+            <img class="channel-logo" src="./../Imagenes/avatar 1.jpg" alt="Channel Logo" class="channel-logo">
+            <div class="video-title">
+              <h3>Residente - This is Not America (Official Video) ft. Ibeyi</h3>
+              <p class="channel">Residente</p>
+              <p class="vid-meta">35 M de visualizaciones • hace 3 años</p>
+            </div>
+          </div>
         </div>
+        <div class="card-video">  
+          <img class="thumbnail"src="./../Imagenes/vid 2.avif" alt="Video Thumbnail">
+          <div class="video-info">
+            <img class="channel-logo" src="./../Imagenes/avatar 2.jpg" alt="Channel Logo" class="channel-logo">
+            <div class="video-title">
+              <h3>Camila - Aléjate De Mi</h3>
+              <p class="channel">Camila</p>
+              <p class="vid-meta"> 572 M de visualizaciones • hace 15 años</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-video">  
+          <img class="thumbnail"src="./../Imagenes/vid 3.avif" alt="Video Thumbnail">
+          <div class="video-info">
+            <img class="channel-logo" src="./../Imagenes/avatar 3.jpg" alt="Channel Logo" class="channel-logo">
+            <div class="video-title">
+              <h3>Diana King - Shy Guy (Re-Shoot)</h3>
+              <p class="channel">DianaKingVEVO</p>
+              <p class="vid-meta">13 M de visualizaciones • hace 11 años</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-video">  
+          <img class="thumbnail"src="./../Imagenes/vid 4.avif" alt="Video Thumbnail">
+          <div class="video-info">
+            <img class="channel-logo" src="./../Imagenes/avatar 4.jpg" alt="Channel Logo" class="channel-logo">
+            <div class="video-title">
+              <h3>Ella baila sola Exitos Las mejores Canciones de Ella baila sola</h3>
+              <p class="channel">RockassOnlineMusic</p>
+              <p class="vid-meta">279 K de visualizaciones • hace 2 años</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-video">  
+          <img class="thumbnail"src="./../Imagenes/vid 5.avif" alt="Video Thumbnail">
+          <div class="video-info">
+            <img class="channel-logo" src="./../Imagenes/avatar 5.jpg" alt="Channel Logo" class="channel-logo">
+            <div class="video-title">
+              <h3>Reik - Ya Me Enteré (Official Video)/h3>
+              <p class="channel">Reik</p>
+              <p class="vid-meta">685 M de visualizaciones • hace 9 años</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-video">  
+          <img class="thumbnail"src="./../Imagenes/vid 6.avif" alt="Video Thumbnail">
+          <div class="video-info">
+            <img class="channel-logo" src="./../Imagenes/avatar 6.jpg" alt="Channel Logo" class="channel-logo">
+            <div class="video-title">
+              <h3>P!NK - TRUSTFALL (Official Video)</h3>
+              <p class="channel">P!NK</p>
+              <p class="vid-meta">93 M de visualizaciones • hace 2 años</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-video">  
+          <img class="thumbnail"src="./../Imagenes/vid 7.avif" alt="Video Thumbnail">
+          <div class="video-info">
+            <img class="channel-logo" src="./../Imagenes/avatar 7.jpg" alt="Channel Logo" class="channel-logo">
+            <div class="video-title">
+              <h3>PODER JUDICIAL</h3>
+              <p class="channel">Backdoor</p>
+              <p class="vid-meta">47 K de visualizaciones • hace 2 dias</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-video">  
+          <img class="thumbnail"src="./../Imagenes/vid 8.avif" alt="Video Thumbnail">
+          <div class="video-info">
+            <img class="channel-logo" src="./../Imagenes/avatar 8.jpg" alt="Channel Logo" class="channel-logo">
+            <div class="video-title">
+              <h3>Westlife - Uptown Girl (Official Video)</h3>
+              <p class="channel">Westlife</p>
+              <p class="vid-meta">93 M de visualizaciones • hace 8 años</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="card-video">  
-        <img class="thumbnail"src="./../Imagenes/Vid 1.avif" alt="Video Thumbnail">
-        <div class="video-info">
-          <img class="channel-logo" src="./../Imagenes/avatar 1.jpg" alt="Channel Logo" class="channel-logo">
-          <div class="video-title">
-            <h3>Residente - This is Not America (Official Video) ft. Ibeyi</h3>
-            <p class="channel">Residente</p>
-            <p class="vid-meta">35 M de visualizaciones • hace 3 años</p>
-        </div>
-        </div>
-      </div>
-      <!-- Add more video blocks as needed -->
+    </main>
   </body>
 </html>
